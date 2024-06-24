@@ -17,40 +17,19 @@
 		boolean attendance[] = {true, false, true, false, true, false, true, false, true};
 		long phonenumbers[] = {6364, 9902, 8792, 6364, 7676, 8095, 6364, 9036, 6362};
 
-		for (int a = 0; a < rollnumbers.length; a++) {
+		for (int a = 0; a <9; a++) {
 			System.out.println("The roll number of the student: " + rollnumbers[a]);
-		}
-		 
-		for (int b = 0; b < name.length; b++) {
-			System.out.println("The name of the student: " + name[b]);
-		}
-		 
-		for (int c = 0; c < address.length; c++) {
-			System.out.println("The address of each student: " + address[c]);
-		}
-		 
-		for (int d = 0; d < dexnum.length; d++) {
-			System.out.println("The dex number of the student: " + dexnum[d]);
-		}
-		 
-		for (int e = 0; e < indexnum.length; e++) {
-			System.out.println("The index number of the student: " + indexnum[e]);
-		}
-		 
-		for (int f = 0; f < fees.length; f++) {
-			System.out.println("The fees of the student: " + fees[f]);
-		}
-		 
-		for (int g = 0; g < idnumber.length; g++) {
-			System.out.println("The ID number of the student: " + idnumber[g]);
-		}
-		 
-		for (int h = 0; h < attendance.length; h++) {
-			System.out.println("The attendance of the student: " + attendance[h]);
-		}
-		 
-		for (int i = 0; i < phonenumbers.length; i++) {
-			System.out.println("The phone number of the student: " + phonenumbers[i]);
+			System.out.println("The name of the student: " + name[a]);
+			System.out.println("The address of each student: " + address[a]);
+			System.out.println("The dex number of the student: " + dexnum[a]);
+			System.out.println("The index number of the student: " + indexnum[a]);
+			System.out.println("The fees of the student: " + fees[a]);
+			System.out.println("The ID number of the student: " + idnumber[a]);
+			System.out.println("The attendance of the student: " + attendance[a]);
+			System.out.println("The phone number of the student: " + phonenumbers[a]);
+			System.out.println("\n");
+			
+		
 		}
 	}
 }
