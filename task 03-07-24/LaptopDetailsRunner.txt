@@ -1,0 +1,53 @@
+public class Drinks {
+    // Method 1
+    public void showDrinkDetails(String name, int price, boolean isCold) {
+        if (name.equals("Coke")) {
+            System.out.println("Drink: Coke");
+        }
+        if (price > 10) {
+            System.out.println("Price: More than 10");
+        }
+        if (isCold) {
+            System.out.println("The drink is cold");
+        }
+    }
+
+    // Method 2
+    public void showDrinkVolume(String name, int volume, boolean isLarge) {
+        if (name.equals("Pepsi")) {
+            System.out.println("Drink: Pepsi");
+        }
+        if (volume > 500) {
+            System.out.println("Volume: More than 500ml");
+        }
+        if (isLarge) {
+            System.out.println("The drink is large");
+        }
+    }
+
+    // Method 3
+    public void showDrinkIngredients(String name, boolean containsSugar, boolean containsCaffeine) {
+        if (name.equals("Sprite")) {
+            System.out.println("Drink: Sprite");
+        }
+        if (containsSugar) {
+            System.out.println("Contains sugar");
+        }
+        if (containsCaffeine) {
+            System.out.println("Contains caffeine");
+        }
+    }
+
+    // Method 4
+    public void showDrinkOrigin(String name, String origin, boolean imported) {
+        if (name.equals("Fanta")) {
+            System.out.println("Drink: Fanta");
+        }
+        if (origin.equals("USA")) {
+            System.out.println("Origin: USA");
+        }
+        if (imported) {
+            System.out.println("The drink is imported");
+        }
+    }
+}
