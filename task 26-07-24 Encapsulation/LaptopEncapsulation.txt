@@ -1,0 +1,76 @@
+public class Laptop{
+	
+	private String companyName;
+	private float  price;
+	private String storage;
+	private String configuaration;
+	private String color;
+	private boolean isGaming;
+	
+	public void setcompanyName(String companyName){
+	this.companyName=companyName;
+	}
+	
+	public String getcompanyName(){
+	return this.companyName;
+	}
+	
+	public void setprice(float price){
+	this.price=price;
+	}
+	
+	public float getprice(){
+	return this.price;
+	}
+	
+	public void setstorage(String storage){
+	this.storage=storage;
+	}
+	
+	public String getstorage(){
+	return this.storage;
+	}
+	
+	public void setconfiguaration(String configuaration){
+	this.configuaration=configuaration;
+	}
+	public String getconfiguaration(){
+	return this.configuaration;
+	}
+	
+	public void setcolor(String color){
+	this.color=color;
+	}
+	public String getcolor(){
+	return this.color;
+	}
+	
+	public void setisGaming(boolean isGaming){
+	this.isGaming=isGaming;
+	}
+	public boolean getisGaming(){
+	return true;
+	}
+	
+	public static void main(String args[]){
+	Laptop details = new Laptop();
+	
+	details.setcompanyName("Lenovo");
+	System.out.println("Name : "+ details.getcompanyName());
+	
+	details.setprice(71500.56f);
+	System.out.println("thr price is : "+details.getprice());
+	
+	details.setstorage("10TB");
+	System.out.println("Storage is : " + details.getstorage());
+	
+	details.setconfiguaration("Intel i5");
+	System.out.println("configuaration is : "+ details.getconfiguaration());
+	
+	details.setcolor("Black");
+	System.out.println("the color is : "+ details.getcolor());
+	
+	details.setisGaming(true);
+	System.out.println("the laptop is gaming: "+ details.getisGaming());
+	}
+}
